@@ -1,0 +1,258 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Instructions: Comments in the file below indicate where the
+% following steps have to be performed.
+% Step 1: Enter abstract title.
+% Step 2: Enter author information.
+% Step 3: Enter key words.
+% Step 4: Enter main text of abstract.
+% Step 5: Enter references, e.g. using a simple list.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{article}
+\usepackage{times}
+%\usepackage{tgtermes}
+\usepackage[T1]{fontenc}
+% sur un syst�me mac os utiliser la ligne suivante
+\usepackage[applemac]{inputenc}
+% sur un syst�me windows utiliser la ligne suivante
+%\usepackage[latin1]{inputenc}
+% sur un syst�me linux en utf8 utiliser al ligne suivante
+%\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\setstretch{1,15}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\fontsize{16}{20}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\fontsize{16}{20}\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\section}
+{0pt}{2.ex plus 1ex minus .2ex}{.0ex}
+\titlespacing*{\subsection}
+{0pt}{0.ex}{.0ex}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 2pt minus 1 pt}
+\topmargin  -12mm
+\evensidemargin 5mm
+\oddsidemargin  0mm
+\textwidth  158mm
+\textheight 245mm
+\headheight 14pt
+\headsep 1.2cm
+
+\pagestyle{fancy}
+\rfoot{}
+\chead{}
+\cfoot{}
+\lhead{
+ \textit{23\textsuperscript{\`eme} Congr\`es Fran\c{c}ais de M\'ecanique}}              
+ \rhead{
+  \textit{Lille, 28 au 1\textsuperscript{er} Septembre 2017}}
+
+
+\begin{document}
+%\pagestyle{empty}
+
+
+
+\begin{center}
+\begin{spacing}{2.05}
+{\fontsize{20}{20}
+\bf
+% Step 1: Enter abstract title here.
+Extreme effects on bridges caused by traffic and wind
+}
+\end{spacing}
+\end{center}
+\vspace{-1.25cm}
+\begin{center}
+{\fontsize{14}{20}
+\bf
+M. NESTEROVA\textsuperscript{a}, F. SCHMIDT\textsuperscript{b}, C. SOIZE\textsuperscript{c}, D. SIEGERT\textsuperscript{d}\\
+\bigskip
+%\vspace{0.75cm}
+}
+{\fontsize{12}{20}
+a. Universit\'e Paris-Est, MAST, SDOA, IFSTTAR, F-77447 Marne-la-Vall\'ee, France, mariia.nesterova@ifsttar.fr\\
+b. Universit\'e Paris-Est, MAST, SDOA, IFSTTAR, F-77447 Marne-la-Vall\'ee, France, franziska.schmidt@ifsttar.fr\\
+c. Universit\'e Paris-Est, MSME, F-77454 Marne-la-Vall\'ee, Cedex 2, France, christian.soize@univ-paris-est.fr\\
+d. Universit\'e Paris-Est, COSYS, LISIS, IFSTTAR, F-77447 Marne-la-Vall\'ee, France, dominique.siegert@ifsttar.fr\\
+}
+\end{center}
+
+\vspace{10pt}
+
+{\fontsize{16}{20}
+\bf
+R\'esum\'e :
+}
+\medskip
+
+\textit{%
+Pour \'etudier la fiabilit\'e de structures existantes, les conditions environnementales et de trafic conduisant \'a des effets extr\'emes, doivent \'tre consid\'er\'es. Par exemple, dans le cas de certains ponts, il faudra prendre en compte l'influence du vent, ainsi que sa combinaison avec les effets extr\'emes dus au trafic.\\
+Dans le cadre du projet europ\'een INFRASTAR, des recherches dans ce domaine sont r\'ealis\'ees sur des donn\'ees acquises sur le viaduc de Millau (France). Dans l'\'etude pr\'eliminaire pr\'esent\'ee ici, deux mois de donn\'ees de trafic (donn\'ees de pesage en marche, WIM pour weigh-in-motion en anglais) ont \'et\'e utilis\'es pour \'evaluer les effets du trafic. Les effets caus\'es par le vent ont \'et\'e obtenus \'a partir de valeurs mesur\'ees au niveau le plus \'elev\'e des pyl\^ones du viaduc par les syst\'emes SCADA (Supervisory Control And Data Acquisition). La m\'ethode \'etudi\'e par \cite{Zhou2013} est utilis\'ee pour l'analyse statistique des charges de trafic; les effets du vent sont appliqu\'es selon \cite{Zhang2014} et \cite{Arena2014}.\\
+Les r\'esultats donnent les r\'eponses du pont aux combinaisons du cas de charge le plus agressif de la position des v\'ehicules avec des valeurs extr\'emes du vent dans la direction la plus d\'efavorable. L'objectif principal de cet article est l'observation de l'influence du vent sur le comportement du pont sous chargement de trafic pour la pr\'ediction future des cas extr\'emes et l'estimation du niveau de s\'ecurit\'e des structures.}
+
+\vspace{20pt}
+
+{\fontsize{16}{20}
+\bf
+Abstract :
+}
+\bigskip
+
+\textit{%
+To examine the reliability of existing structures, environmental and traffic situations leading to extreme effects, have to be considered. For instance, in the case of given bridges, it is necessary to take into account the influence of wind, as well as its combination with extreme effects due to traffic.\\
+As a part of the European project INFRASTAR, research in this area is carried out on the Millau viaduct (France). In the recent study, two months of Weigh-In-Motion (WIM) data have been used for evaluation of effects from traffic. Effects caused by the wind have been obtained from values measured at the highest level of bridge towers by Supervisory Control And Data Acquisition (SCADA) systems. Methodic studied by \cite{Zhou2013} is used for statistical analysis of traffic loads; wind effects are applied according to \cite{Zhang2014} and \cite{Arena2014}. \\
+Results include responses of the bridge to combinations of the worst case of vehicles position with extreme values of the wind at the most unfavorable direction. The main objective of this paper is an observation of the influence of the wind on the bridge behavior under traffic loading for the future prediction of extreme load cases and estimation of a safety level of structures.}
+
+\vspace{28pt}
+
+{\fontsize{14}{20}
+\bf
+Mots clefs : bridge, traffic load, wind load, extreme effects, traffic and wind combination
+}
+\bigskip
+
+\section{Introduction}
+\medskip
+Due to the developing of transport networks, more and more existing bridges are being investigated, as well as new bridges are being constructed all over the world. With the increase of traffic in quantity and weight, projects of bridges are becoming more complicated; therefore, existing norms such as EN \cite{ENwind,ENbridge} do not always give correct results \cite{Moham2013} and the behaviour of bridges is more difficult to predict. In addition to dead-loads, bridges are affected by different types of environmental actions and by traffic. Predictions of the behaviour of bridges under combinations of these loadings is desired. Such predictions is usually made by statistical analysis using the Extreme Value Theory (EVT) \cite{Coles2001}.
+\section{Methodology}
+\medskip
+To identify extreme values of load effects (LEs) caused by the traffic and the wind, the Peaks Over Threshold (POT) method is used in the current paper. It has been recently adopted for predictions of extreme traffic actions (\cite{Zhou2013,Zhou2016}). Peaks that lay above a threshold are fitted to the generalized Pareto distribution (GPD). The conditional distribution of (positive) threshold excesses $Y_i=X_i-u$ function \cite{Coles2001} can be expressed as:
+$$F_u (u)=P[Y\le y|X>u]=\frac{(F(y+u)-F(u))}{(1-F(u) )}$$
+The main principal of the POT approach is based on the method applied by Zhou \cite{Zhou2013, Zhou2016} for traffic loads: the distribution $F_u (u)$ tends to the upper tail of a GPD:
+\[
+\mbox{$G(x;\xi;\sigma;u)$}=\left\{
+\begin{array}{rl}
+$$ 1 - [ 1 + \xi (\frac{x-u}{\sigma}) ]^{-1/\xi} $$ & $$\xi\not=0$$ \\
+$$1 - exp{(-(\frac{x-u}{\sigma}))}$$ & $$\xi=0$$
+\end{array} \right.
+\]
+Conditions for the application of the EVT are the following:
+\begin{itemize}
+	\item Identical distribution of random variables (values of LEs) $X_i$;
+	\item Random variables (values of LEs) $X_i$ are independent;
+	\item The threshold $u$ is quite high;
+\end{itemize}
+For a long period of time, observations can be based on the cumulative distribution function of extreme values over a shorter period \cite{Crespo1997}. Provided by \cite{Coles2001}, for the probability $P[X\le x|X>u]$ with
+$\zeta_u=P(X>u)$, the solution to the function is:
+\[
+\mbox{$x_m$}=\left\{
+\begin{array}{rl}
+$$u+\frac{\sigma}{\xi}[(m\zeta_u)^{\xi -1}],$$ & $$\xi\not=0$$ \\
+$$u+\sigma log{(m\zeta_u)},$$ & $$\xi=0$$ 
+\end{array} \right.
+\]
+Where $x_m$ is $m$-observation return level - a quantile that exceeds once every $m$ observations with large enough $m$ to provide $x_m>u$.\\
+The POT approach has its difficulties such as selecting of an optimized threshold and a choice of parameter estimators $\sigma, \xi$ for the GPD. Here, this work is done using MatLab software with a respect to \cite{Zhou2013, Coles2001}.
+\section{Application to the Millau bridge}
+\subsection{Instrumentation}
+\medskip
+As a complex and challenging structure, the Millau viaduct was chosen for the current research. The long-term monitoring of different responses of the structure is made and all necessary data are provided by the suitable instrumentation:
+\begin{itemize}
+	\item Deformation and displacements of the deck (spans and supports) and piers,
+	\item Wind speed (SCADA at the level of the deck and at the top of pylons, when the wind speed threshold is overtaken),
+	\item Traffic monitoring (WIM) starting from November 2016. 
+\end{itemize}
+Due to the provided WIM data for several months, the influence of the wind on the bridge response is studied for a short period of time. The POT approach is applied to each case: LEs from only traffic, from the wind and from their combination. 
+\subsection{Effects of traffic actions}
+To analyze the response of the bridge caused particularly by traffic actions, only those periods of time are considered when the weather is still. From the SCADA system, days without any wind speed recordings are considered in this case. It means that the wind was insignificant, and only traffic actions influenced the bridge response.
+\subsection{Effects of wind actions}
+It is more difficult to obtain values of response only from the wind when there is no traffic at all. For such situation, some periods of time are chosen, when the wind is too strong and there are restrictions on the number and weights of passing vehicles. Another possible choice is the nighttime when the wind speed threshold is overtaken by SCADA system, however, there is almost no traffic on the bridge, which is observed by analysing the data from the WIM system installed on the bridge. For these periods of time, values of the bridge response are withdrawn from the entire data. 
+\subsection{Combination of the wind and traffic}
+Usually, if the wind is too strong, important bridges on highways are closed for the transport or the access of large vehicles is limited, so, the combination of extreme wind action together with the extreme traffic action can not take place. Thus, for the case of the combination of wind and traffic actions, it is studied the situation when the wind is close to the critical value, but still, the bridge is continuing to operate for trucks.
+\section{Discussion of results}
+\medskip
+The first results are obtained by applying the described in Section 2 POT method to responses of the   Millau viaduct. They are represented by three different predictions of bridge response: caused by traffic actions, by the wind and by the combination of both. Mean and maximum values of LEs, as well as estimated return levels, are compared for each situation.
+The following conclusions can be made:
+\begin{itemize}
+	\item The influence of the wind is not significant at chosen short periods of time, however, visible for the estimated return period.
+	\item Obviously, looking just at recorded responses of the structure is not enough to make reliable predictions, as there is much uncertainty, as well as the period of observations is too short. Therefore, the work is being continued.
+\end{itemize}
+The next challenge is the comparison between these real measured values of responses and computed load effects from given values of actions on the bridge. The further research includes the development of an efficient method to estimate the reliability of structures exposed to extreme environmental actions (and additionally traffic actions, in the case of bridges)  considering their combinations. 
+\section{Acknowledgment}
+\medskip
+This project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 676139. The grant is gratefully acknowledged.
+
+
+%\section*{R\'ef\'erences (16 gras)}
+
+\begin{thebibliography}{9}
+\bigskip
+  \bibitem{Zhou2013}
+	X.Y. Zhou,
+	Statistical analysis of traffic loads and their effects on bridges. 
+	Th\'ese,
+	Universit\'e Paris-Est,
+	Paris,
+	2013
+  \bibitem{Zhang2014}
+	W. Zhang, C. Cai, F. Pan, Y. Zhang,
+	Fatigue life estimation of existing bridges under vehicle and non-stationary hurricane wind. 
+	Journal of Wind Engineering and Industrial Aerodynamics,
+	133 (2014) 135--145.
+  \bibitem{Arena2014}
+	A. Arena, W. Lacarbonara, D.T. Valentine, P. Marzocca,
+	Aeroelastic behavior of long-span suspension bridges under arbitrary wind profiles.
+	Journal of Fluids and Structures,
+	50 (2014) 105--119.
+  \bibitem{ENwind}
+	EN-1991-1-4. (2005). Eurocode-1. Actions on structures - Part 1-4: General actions - Wind actions.
+	Brussels: European Committee For Standartization.
+  \bibitem{ENbridge}
+	EN-1991-2. (2003). Eurocode-1. Actions on structures - Part 2: Traffic loads on bridges. 
+	Brussels: European Committee For Standartization.
+  \bibitem{Moham2013}
+	M.S. Mohammadi, R. Mukherjee,
+	Wind Loads on Bridges : Analysis of a three span bridge based on theoretical methods and EC 1.
+	Th\'ese,
+	Royal Institute of Technology (KTH),
+	Stockholm, 	
+	2013
+  \bibitem{Coles2001}
+	S. Coles, J. Bawa, L. Trenner, P. Dorazio,
+	An introduction to statistical modeling of extreme values. 
+	Springer,
+	2001	
+  \bibitem{Crespo1997}
+	C. Crespo-Minguillon, J.R. Casas,
+	A comprehensive traffic load model for bridge safety checking. 
+	Structural Safety,
+	19 (1997) 339--359.
+  \bibitem{Zhou2016}
+	X.Y. Zhou, F. Schmidt, F. Toutlemonde, B. Jacob,
+	A mixture peaks over threshold approach for predicting extreme bridge traffic load effects. 	
+	Probabilistic Engineering Mechanics, 
+	43 (2016) 121--131.
+ % \bibitem{Den2013}
+%	V. Denoel, N. Blaise, 
+%Principal static wind loads.
+%	Journal of Wind Engineering and Industrial Aerodynamics, 
+%	113 (2013), 29--39.
+ % \bibitem{Daven1995}
+%	A. Davenport, 
+%	How can we simplify and generalize wind loads? 
+%	Journal of Wind Engineering and Industrial Aerodynamics, 
+%	54 (1995) 657--669.
+\end{thebibliography}
+
+%\begin{tabular}{lp{145mm}}
+%% Step 5: Enter references here, e.g. using a simple list.
+%\hspace{-2mm}{[1]}&
+%N. Mo\"es, J. Dolbow and T. Belytschko.
+%A finite element method for crack growth without remeshing. 
+%{\em Int. J. Numer. Meth. Engng.}, Vol. {\bf 46}, 135--150, 1999.
+%\\[1mm]
+%
+%\hspace{-2mm}{[2]}&
+%O.C. Zienkiewicz and R.C. Taylor. 
+%{\em The finite element method}, 
+%4th. Edition, Vol. {\bf I}, McGraw Hill, 1989., Vol. {\bf II}, 1991.
+%\\[1mm]
+%\end{tabular}
+
+\end{document}
+
